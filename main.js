@@ -22,6 +22,14 @@ function mostrarFormulario2() {
   let formulario2 = document.getElementById("form_2");
   formulario2.style.display = "block";
 }
+function mostrarNosotros (){
+  let carousel = document.getElementById("carouselExampleControls")
+  carousel.style.display = "block";
+}
+function hidenCarousel(){
+  let ocultar = document.getElementById("carouselExampleControls")
+  ocultar.style.display = "none"
+}
 
 const datos_form_1 = document.getElementById("form_1");
 

@@ -29,7 +29,7 @@
               <a class="nav-link" href="#">Nuestros Productos <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre Nosotros</a>
+              <a class="nav-link"  onclick="mostrarNosotros()" href="#">Sobre Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" onclick="mostrarFormulario()" href="#">Comuniquemonos</a>
@@ -41,7 +41,37 @@
         </div>
       </nav>
       
-      
+
+      <div id="carouselExampleControls" onmouseout="hidenCarousel()" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner " id="showCarousel">
+          
+          <div class="carousel-item active box_corousel bg-dark w-50 text-white ">
+              <h2 class="m-0">Nimrorel Pub Restaurant</h2>
+            <img src="./src/IMG2.jpg" class="d-block" alt="...">
+            <p>“Nimrodel Significa “dama de la cueva blanca”. Fue una elfa silvana que vivió durante la Tercera Edad del Sol en el bosque de Lothlórien. En honor a su nombre, se acuña Nimrodel al río que nace en las Montañas Nubladas”.</p>
+         
+        </div>
+          <div class="carousel-item bg-dark box_corousel w-50 text-white">
+            <img src="..." class="d-block" alt="...">
+            <p>“Nimrodel Pub Restaurant es un oasis de calma y diversión, lleno de rincones acogedores en donde se resalta la belleza de su decoración élfica.
+                Es un lugar ideal para visitar solo o acompañado, disfrutar una tarde con amigos, terminar el día después del trabajo o almorzar con tu familia.
+                Puedes probar nuestras tradicionales tablas, en todas sus variedades y que nos han otorgado reconocimiento dentro de la cultura gastronómica.
+                También puedes disfrutar nuestras cervezas de fabricación propia, con sabores que te llevarán a un mágico mundo.”</p>
+          </div>
+          <div class="carousel-item  box_corousel_1 bg-dark w-50 text-white ">
+            <img src="./src/IMG1.jpg" class="d-block" alt="...">
+          </div>
+        </div>
+    
+        <button class="carousel-control-prev w-75" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next w-75" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
    
 

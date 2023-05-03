@@ -35,11 +35,12 @@ nav {
 .navbar-nav {
     padding-left: 250px;
 }
-.navbar-collapse{
+
+.navbar-collapse {
     display: flex;
-    
 }
-.navbar-collapse li{
+
+.navbar-collapse li {
     background-color: black;
     opacity: 0.8;
     padding: 0 5px;
@@ -70,25 +71,25 @@ p {
     margin-bottom: 20px;
     color: white;
 }
-.form1 .input-group{
+
+.form1 .input-group {
     padding-right: 30px;
 }
+
 .form2 {
     padding-left: 40px;
     background-color: gray;
     margin-bottom: 20px;
     color: white;
 }
-.form2 .input-group{
+
+.form2 .input-group {
     padding-right: 30px;
 }
-
 
 .boton {
     margin-top: 10px;
 }
-
-
 
 footer {
     background-image: url('./src/fondo.jpg');
@@ -112,9 +113,6 @@ footer p {
     nav {
         background-size: 45% 300%;
     }
-
-
- 
     footer {
         background-size: 110%;
     }
@@ -124,12 +122,10 @@ footer p {
     nav {
         background-size: 58%;
     }
-    .form1, .form2 {
+    .form1,
+    .form2 {
         display: none;
     }
-    
-
-  
     footer {
         background-size: 140%;
         height: 140px;
@@ -140,11 +136,59 @@ footer p {
     nav {
         background-size: 80%;
     }
-    .form1, .form2 {
+    .form1,
+    .form2 {
         display: none;
     }
-   
     footer {
         background-size: 200%;
     }
+}
+
+
+/* carousel  */
+
+#carouselExampleControls {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+.box_corousel {
+    position: relative;
+  
+    left: 25%;
+    height: 500px;
+    width: 50%;
+}
+
+.box_corousel p {
+    position: relative;
+    bottom: 35%;
+    left: 20%;
+    width: 400px;
+}
+
+.box_corousel img {
+    position: relative;
+    top: 35%;
+    left: 35%;
+    width: 200px;
+    height: 200px;
+}
+
+.box_corousel_1{
+    margin: 0 auto;
+    position: relative;
+    left: 25%;
+}
+
+.box_corousel_1 img {
+    position: relative;
+    left: 20%;
+    width: 400px;
+    height: 400px;
+    top: 10%;
+    height: 500px;
 }
